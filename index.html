@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Name of the project -->
+    <title>Stopwatch</title>
+    <!-- CSS file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- It is a container which contains the StopWatch -->
+    <div class="container">
+        <!-- To display the time -->
+        <h1 id="displayTime">00:00:00:000</h1>
+        <div class="buttons">
+		<!-- Stop button with onclick function to stop the stopwatch -->	
+        <button onclick="watchStop()">Stop</button>
+		 <!-- Start button with onclick function to start the stopwatch -->
+        <button  onclick="watchStart()">Start</button>
+		<!-- Reset button with onclick function to reset the stopwatch -->
+        <button onclick="watchReset()">Reset</button>
+        </div>
+    </div>
+    <!-- javascript file-->
+    <script src="script.js"></script>
+</body>
+</html>
